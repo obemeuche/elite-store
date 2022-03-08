@@ -9,59 +9,58 @@
 </head>
 
 <body>
-  <header>
-    <nav>
-      <h2>Avpto</h2>
+  <header class="header container">
+    <nav class="nav">
+      <i class="fa-solid fa-bars nav__menu"></i>
+      <h1 class="nav__brand"><a href="" class="nav__brand-link">Avpto<span class="nav__brand-point">.</span></a></h1>
 
-      <div>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Category</a></li>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">Exciting Offers</a></li>
-          <li><a href="#">Track order</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-      </div>
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Category</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Shop</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Exciting Offers</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Track order</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Contact Us</a></li>
+      </ul>
 
-      <div>
-        <i>icon1</i>
-        <i>icon2</i>
-        <i>icon3</i>
-        <i>icon4</i>
+      <div class="nav__icon-container">
+        <a href=""><i class="fa-solid fa-magnifying-glass nav__icon"></i></a>
+        <a href=""><i class="fa-regular fa-heart nav__icon"></i></a>
+        <a href=""><i class="fa-solid fa-bag-shopping nav__icon"></i></a>
+        <a href=""><i class="fa-regular fa-user nav__icon"></i></a>
       </div>
     </nav>
   </header>
 
-  <section>
-    <div>
-      <img src="" alt="male-fashionista">
+  <section class="hero">
+    <div class="hero__img-container">
+      <img src="/public/assets/store-images/kindpng_40720.png" alt="male-fashionista" class="hero__img">
     </div>
 
-    <div>
-      <p>For the Best</p>
-      <p>Discount Sale</p>
-      <p>The Big Offer Day Extra 10% Off</p>
-      <div>
-        <div>
-          <h3>01</h3>
-          <p>Days</p>
+    <div class="hero__txt-content">
+      <p class="hero__txt-header">For the Best</p>
+      <p class="hero__txt-sub-header">Discount Sale</p>
+      <p class="hero__txt-description">The Big Offer Day Extra 10% Off</p>
+      <div class="hero__timer-container">
+        <div class="hero__timer-block">
+          <span class="hero__timer-number">01</span>
+          <span class="hero__timer-txt">Days</span>
         </div>
-        <div>
-          <h3>05</h3>
-          <p>Hours</p>
+        <div class="hero__timer-block">
+          <span class="hero__timer-number">05</span>
+          <span class="hero__timer-txt">Hours</span>
         </div>
-        <div>
-          <h3>21</h3>
-          <p>Mins</p>
+        <div class="hero__timer-block">
+          <span class="hero__timer-number">21</span>
+          <span class="hero__timer-txt">Mins</span>
         </div>
-        <div>
-          <h3>21</h3>
-          <p>Secs</p>
+        <div class="hero__timer-block">
+          <span class="hero__timer-number">21</span>
+          <span class="hero__timer-txt">Secs</span>
         </div>
       </div>
-      <button>Order now</button>
+      <button class="hero__cta">Order Now</button>
     </div>
   </section>
 

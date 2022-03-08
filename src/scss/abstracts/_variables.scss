@@ -8,7 +8,7 @@ $danger: #ff293a;
 $light: #dfe6ee;
 $dark: #000;
 
-$primary-light: #7ed56f;
+$primary-light: hsl(111, 55%, 64%);
 $primary-dark: #28b485;
 
 $secondary-light: #f84e66;
@@ -18,7 +18,7 @@ $tertiary-light: #2998ff;
 $tertiary-dark: #5643fa;
 
 $grey-light-1: #f7f7f7;
-$grey-light-2: #eee;
+$grey-light-2: #ff0000;
 
 $grey-dark: #777;
 $grey-dark-2: #999;
@@ -27,4 +27,4 @@ $grey-dark-3: #333;
 $white: #fff;
 
 // FONT
-$default-font-size: 16px;
+$default-font-size: 1rem;
